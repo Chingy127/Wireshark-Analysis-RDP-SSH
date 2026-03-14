@@ -123,7 +123,7 @@ SSH communication typically uses <b>TCP port 22</b>. Unlike protocols that send 
 <h3>Connecting to the Linux Virtual Machine</h3>
 
 <p>
-To generate SSH traffic in this lab, the Windows virtual machine was used to connect to the Linux virtual machine over the private network.
+To generate SSH traffic in this lab, the Windows virtual machine was used to connect to the Linux virtual machine over the private network. To establish the SSH connection, the private IP address of the Linux virtual machine was used. Since both virtual machines were on the same virtual network, the private IP allowed a secure internal connection between the systems without exposing the service to the public internet
 </p>
 
 <p>
